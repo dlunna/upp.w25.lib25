@@ -1,0 +1,371 @@
+/****ECYAD****/
+
+
+
+/***Nav1***/
+.nav1 {
+    background-color: #bc955b;
+}
+
+.N1 {
+    background-image: linear-gradient(
+      to right,
+      #ffff,
+      #fff,
+      #ffff 
+    );
+    background-size: 200% 100%;
+    background-position: -100%;
+    display: inline-block;
+    padding: 5px 0;
+    position: relative;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .N1:before{
+    content: '';
+    background: #ffffff;
+    display: block;
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .N1:hover {
+   background-position: 0;
+   text-shadow: 0 0 3px #ffffff;
+  }
+  
+  .N1:hover::before{
+    width: 100%;
+  }
+
+.N1PTPB {
+    padding-top: 20px;
+    padding-bottom: 20PX;
+}
+
+/***Nav1***/
+
+/***Nav2***/
+.N2Color {
+    color: #ffffff;
+}
+
+.N2Shadow:hover {
+    text-shadow: 0 0 3px #ffffff;
+}
+
+.N2 {
+    background-color: rgb(98, 19, 51);
+}
+/***Nav2***/
+
+
+/* Footer*/
+.FooterColorTxt {
+    color: #ffffff;
+    text-align: left;
+    padding-top: 15px;
+}
+.FooterColorTxt2 {
+    color: #ffffff;
+    text-align: left;
+}
+
+.FooterImgAL {
+    text-align: left;
+}
+
+section {
+    padding: 20px 0;
+}
+
+.FooterIcon {
+    padding-right: 20px;
+}
+
+#footer {
+    background-color: rgb(98, 19, 51, 1) !important ; 
+}
+
+.FooterShadow:hover {
+    text-shadow: 0 0 3px #ffffff;
+}
+
+/* Footer*/
+
+
+
+
+
+
+
+
+
+
+
+.separadorDor {
+    background-color: #ac7e3e;
+}
+
+.Sombra1 {
+    box-shadow: 10px 10px 5px lightblue;
+  }
+
+.degra {
+    background: radial-gradient(circle, rgba(73,23,109,0) 0%, rgba(73,23,109,1) 100%);
+
+}
+
+.TituloAvi {
+    padding-top: 50px;
+}
+
+.TituloAvi2 {
+    padding-top: 20px;
+}
+
+.TitulosCenter {
+    text-align: center;
+}
+
+.CardAlignBT2 {
+    padding-bottom: 30px;
+    padding-bottom: 12px;
+}
+
+.CardAlignBT {
+    padding-bottom: 8px;
+}
+
+
+.correoTP {
+    padding-top: 20px;
+}
+
+.TituloAviB {
+    padding-bottom: 50px;
+}
+
+.TituloAviB6 {
+    padding-top: 35px;
+    padding-bottom: 50px;
+}
+
+.ImgCS {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+body { 
+    background-color:#f1f1f2
+}
+
+.ColorFondo {
+    background: rgb(170,235,255);
+    background: linear-gradient(0deg, rgba(170,235,255,0.5662640056022409) 0%, rgba(221,178,255,0.5130427170868348) 100%);
+}
+
+.lineatxt {
+    text-decoration: underline;
+}
+
+.listul {
+    font-size: 15px;
+    color: #7a7a7a;
+}
+
+.listxt {
+    font-size: 12px;
+    color: #49176d;
+}
+
+.Bcolor {
+    background-color: #49176d;
+    border-color: #49176d;
+    color: #ffffff;
+}
+
+.Bcolor:hover {
+    border-color: #724394 !important;
+    background-color: #724394 !important; 
+    color: #ffffff;
+    box-shadow: 0 5px 13px -2px #724394;
+}
+
+.btn-primary:hover{
+    background-color: #724394;
+
+
+}
+
+.PBTCard {
+    padding-top: 20px;
+}
+
+.PBTCard2 {
+    padding-bottom: 40px;
+}
+
+.topBCyD {
+    margin-top:80px;
+}
+
+.topBCyD2 {
+    margin-top:25px;
+}
+
+.colorMor {
+    color: #49176d;
+}
+
+.AlinIT {
+    align-items: center;
+    text-align: center;
+}
+
+.PTB2 {
+    padding-top: 45px;
+    padding-bottom: 45px;
+}
+
+.TituloTop {
+    padding-top: 80px;
+}
+
+.listxt2 {
+    font-size: 18px;
+    color: #ffffff;
+}
+
+.PDFShadowDD:hover {
+    text-shadow: 0 0 3px #ffffff;
+}
+
+.ShadowRedes:hover {
+    filter: drop-shadow(0px 0px 10px #8c61aa);
+}
+
+.ShadowPDFicon:hover {
+    filter: drop-shadow(0px 0px 10px #ffffff);
+}
+
+.ImageSeparadorM {
+    background-image: url("/CSS/ImgAvisos/SeparadoresM1.png") !important;
+}
+
+.IconoPDF{
+    width: 40px;
+    height: 24px;
+}
+
+.CatalogotxtColor {
+    text-align: justify; 
+    color: #ffffff;
+}
+
+.TopCatalogo {
+    padding-top: 50px;
+    text-align: center; 
+    color: #ffffff; 
+    font-weight: 900;
+}
+
+/****ECYAD****/
+
+
+/*NavVeda*/
+
+.navVeda {
+    background-color: #d5d5d5;
+}
+
+.colLetraVeda {
+    color: #59595a;
+}
+.navIconVeda{
+    padding-right: 15px;
+}
+.TxtShadowNavGob:hover {
+    text-shadow: 0 0 3px #838383;
+}
+
+/*NavVeda*/
+
+
+/* FooterVeda*/
+
+.footerVeda {
+    background-color: #ffffff;
+}
+
+.colLetraVedaTxT {
+    color: #ffffff;
+    text-align: left;
+    padding-top: 15px;
+}
+
+.colLetraVedaTxT2 {
+    color: #ffffff;
+}
+
+section {
+    padding: 20px 0;
+}
+
+.TopMapaSitio {
+    padding-top: 50px;
+}
+
+#footer {
+    background: #ac7e3e !important;
+}
+
+.TxtShadow:hover {
+    text-shadow: 0 0 3px #8c61aa;
+}
+
+.IconShadow2:hover {
+    text-shadow: 0 0 3px #ffffff;
+}
+
+/* FooterVeda*/
+
+
+.PDFShadowDD:hover {
+    text-shadow: 0 0 3px #303030;
+}
+
+.ShadowPDFicon:hover {
+    filter: drop-shadow(0px 0px 10px #303030);
+}
+
+.IconoPDF{
+    width: 40px;
+}
+
+.PTB2 {
+    padding-top: 45px;
+    padding-bottom: 45px;
+}
+
+.TituloTop {
+    padding-top: 80px;
+}
+
+.listxt2 {
+    font-size: 18px;
+    color: #303030;
+}
+
+.ShadowImage {
+    box-shadow: 5px 5px 8px 5px rgb(20, 20, 20, 0.3);
+}
+
+
